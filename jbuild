@@ -2,7 +2,7 @@
 
 (executable
  ((name hermes)
-  (libraries (core))
+  (libraries (core cohttp-async async_extra base async_kernel))
   (preprocess (pps (ppx_jane)))
  )
 
