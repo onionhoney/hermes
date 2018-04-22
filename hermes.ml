@@ -1,4 +1,5 @@
 open Core
-open Server
 
-let () = Printf.printf "Hello World!\n"
+let () = Printf.eprintf "Hello World!\n"
+
+let () = Server.run ()
